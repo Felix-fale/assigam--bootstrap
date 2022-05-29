@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ==================nav bar =========================== -->
+  <header class="shadow-sm bg-body rounded">
+
+    <div class="bg-white text-white">
+      <div class="container p-0" ">
+        <div class=" d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <div href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-dark text-decoration-none">
+          <img src="./image/assigame-logo.svg" alt="assigame-logo" style="height: 82px;">
+        </div>
+
+        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small ">
+
+          <!-- <li style="eight: 72px;" > -->
+          <a href="#" class="nav-link text-dark">
+            <img class="bi d-block mx-auto mb-1" src="./icone/Doorbell.png" alt="Doorbell">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">
+                Mes recherches
+              </font>
+            </font>
+          </a>
+          </li>
+          <li style="eight: 72px;">
+            <a href="#" class="nav-link text-dark">
+              <img class="bi d-block mx-auto mb-1" src="./icone/Favorite.png" alt="Favorite">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Favoris
+                </font>
+              </font>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-dark">
+              <img class="bi d-block mx-auto mb-1" src="./icone/Messages.png" alt="Doorbell">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Messages
+                </font>
+              </font>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-dark">
+              <img class="bi d-block mx-auto mb-1" src="./icone/User.png" alt="Doorbell">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Se connecter
+                </font>
+              </font>
+            </a>
+          </li>
+        </ul>
+
+        <button type="button" class="btn btn-success" style="background-color: #85B940 ;"><img src="./icone/Add.png"
+            alt="Add">Déposer une annonce</button>
+      </div>
+    </div>
+    </div>
+
+  </header>
+  <!-- =================================fin nav bar ================================= -->
+
+  <h1>VENDEZ ET ACHETEZ PRES DE CHEZ VOUS</h1>
+
+  <!-- =======================grande bar de recherche =========================== -->
+
+  <div class="container shadow-sm bg-body rounded" style="height: 233px; max-width: 1180px;">
+
+    <!-- ===========================les trois elements radio =================================-->
+
+    <div class="container-radio pt-4 ps-5">
+
+      <div class="form-check form-check-inline ms-5">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Offres</label>
+      </div>
+      <div class="form-check form-check-inline ms-5">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Demandes</label>
+      </div>
+
+      <div class="form-check form-check-inline ms-5">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Demandes</label>
+      </div>
+    </div>
+
+    <!-- ============================partie categorie et bar  de recherche ========================= -->
+
+    <div class="container-categorie" style=" width: 216px;">
+
+      <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+        <img src="./icone/Bulleted-List.png" alt="Add">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+
+    <button type="button" class="btn btn-outline-secondary rounded-pill">Prix</button>
+
+    <div class="form-check form-switch" style=" height: 30px;">
+      <input style=" height: 26px;" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"
+        checked>
+      <label class="form-check-label" for="flexSwitchCheckChecked">Voir également les annonces disponibles en livraison
+        <img src="icone/Help.png" alt="Aide"></label>
+    </div>
+
+    <div class="container-vert_search  mx-auto position-relative" style="width: 240px; top: 60px;">
+
+      <button type="button" class="btn btn-success" style="background-color: #85B940 width: 200px;">Rechercher (17
+        000résultats)</button>
+
+    </div>
+  </div>
+
+  <!-- =========================fin grande bar de recherche =============================== -->
+
+  <!-- =================debut top categorie =============================== -->
+
+  <section class="container shadow-sm bg-body" style=" max-width:100%; height: 792px; margin-top: 100px;">
+
+    <!-- =============================section top categorie ============================ -->
+    <div class="">
+
+      <h2 class="text-primary mx-auto pt-2 mb-2" style=" max-width:1180px; font-size: 26px;">Top Categorie</h2>
+    </div>
+
+    <!--====================== section carousel ============================-->
+
+    <div class="ul-top-categorie main-carousel">
+      <div class="li">
+        <a class="a" href="#">
+          <span><img src="image/Rectangle-34.webp" alt=""></span>
+
+          <div class="text-top-categorie">Vacances</div>
+        </a>
+      </div>
+
+      <div class="li">
+        <a class="a" href="#">
+          <span><img src="image/Rectangle-36.webp" alt=""></span>
+
+          <div class="text-top-categorie">Vetements</div>
+        </a>
+      </div>
+
+      <div class="li">
+        <a class="a" href="#">
+          <span><img src="image/Rectangle-37.webp" alt=""></span>
+
+          <div class="text-top-categorie">Offres d'emplois</div>
+        </a>
+      </div>
+
+      <div class="li">
+        <a class="a" href="#">
+          <span><img src="image/Rectangle-38.webp" alt=""></span>
+
+          <div class="text-top-categorie">Ventes immo</div>
+        </a>
+      </div>
+
+      <div class="li">
+        <a class="a" href="#">
+          <span><img src="image/Rectangle-43.webp" alt=""></span>
+
+          <div class="text-top-categorie">Voitures</div>
+        </a>
+      </div>
+
+      <div class="li">
+        <a class="a" href="#">
+          <span><img src="image/Rectangle-92.webp" alt=""></span>
+
+          <div class="text-top-categorie">Ammeublement</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- ===================== section communnauté de passionner ====================== -->
+
+    <div>
+
+      <div class="mx-auto pt-2 mb-2" style=" max-width:1180px; font-size: 26px; font-weight: 600; margin-top: 2.25rem;">
+        Rejoignez notre <span style=" color: #336699;">communauté</span> de <span
+          style=" color: #336699;">passionner</span>
+      </div>
+
+    </div>
+
+    <!-- ============= image et rectangle de l'espace communauté ================== -->
+
+    <div class="mx-auto mt-5" style="max-width: 1180px;">
+      <img class="image-communaute" style="max-width: 100%; height: 229px;" src="image/Rectangle-50 (2).webp"
+        alt="communauté">
+
+      <div class=""
+        style=" max-width:489px; position: relative; max-width: 489px; height: 221px; background: #FEF0E9; border-radius: 8px; bottom: 227px; left: 4px; font-style: normal; font-weight: 300; font-size: 15px; line-height: 20px; text-align: justify; padding: 32px 64px 39px 38px;">
+
+        <span class="">
+
+          <span class=""> Avoir une passion c'est bien ! <br>
+            La partager avec les autres, c’est mieux ! <br></span>
+          Jardinage, mode, vélo... Ils sont nombreux à en parler sur
+          la communauté Assigamé ! Rejoingnez-les !
+
+        </span>
+
+        <button type="button" class="btn btn-success mt-4" style="background-color: #85B940 ;">Déposer une
+          annonce</button>
+
+        <!-- ===================== texte a propos d' assigamé ====================== -->
+
+        <div class="mx-auto mt-5" style="width: 1180px;">
+          Avec Assigamé, trouvez la bonne affaire sur le site référent de petites annonces de particulier à
+          particulier et de professionnels. Avec des milliers de petites annonces, trouvez la bonne occasion dans nos
+          catégories voiture, immobilier, emploi, location de vacances, vêtements, meubles, bricolage, téléphonie,
+          jeux vidéo, etc… Déposez une annonce gratuite en toute simplicité pour vendre, rechercher, donner vos biens
+          de seconde main ou promouvoir vos services. Achetez en toute sécurité avec notre système de paiement en
+          ligne et de livraison pour les annonces éligibles.
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+
+  <!-- =================== js du couroussel =========================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <script type="text/javascript">
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'left',
+      wrapAround: true,
+      freeScroll: true
+    });
+  </script>
+  <!-- =================== fin js du couroussel =========================== -->
+
+</body>
+
+</html>
