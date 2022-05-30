@@ -9,7 +9,7 @@
 body{
     background-color: #FAFAFA;
     background-image: url(./image/bg-image_deux-min.webp);
-    background-size: max-width="1460px" height= "650px";
+    background-size: 100%  650px;
     background-repeat: no-repeat;
 }
 
@@ -20,6 +20,7 @@ h1 {
     margin: 48px 0;
     color: #A8FF35;
     background-color: rgba(0, 0, 0, 0.5);
+    width: ;
 }
 
 /* ======================= section caroussel ================================ */
@@ -48,3 +49,7 @@ ul-top-categorie li{
     text-decoration: none;
 }
 /* ====================fin section caroussel ========================== */
+
+
+/* ==============================les commentaires================================== */
+
