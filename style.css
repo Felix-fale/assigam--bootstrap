@@ -23,6 +23,127 @@ h1 {
     width: ;
 }
 
+/* ================ les select, apres le header============ */
+
+.box-un{
+    position: relative;
+}
+
+.select-categories{
+    position: relative;
+    background-color: #F4F6F7;
+    width: 216px;
+    height: 44px;
+    padding: 0 25px 0 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px 0px 0px 5px;
+    /* appearance: none; */
+}
+
+option{
+    position: relative;
+    left: 100px;
+}
+
+.option-categories{
+    display: flex;
+}
+
+#bulleted{
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+
+.container-categorie{
+    position: relative;
+    right: 46px;
+    bottom: 5px;
+}
+
+.box-deux{
+    position: relative;
+    width: 1px;
+    height: 44px;
+    background: #8197B3;
+    right: 46px;
+    bottom: 5px;
+}
+
+/*        search bar and position bar       */
+
+*{box-sizing: border-box;
+}
+
+.search-bar{
+    position: relative;
+    right: 46px;
+    bottom: 5px;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 0px solid grey;
+  width: 292px;
+  height: 45px;
+  background: #F4F6F7;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px 5px 0px;
+}
+
+form.example button {
+  float: left;
+  width: 50px;
+  height: 45px;
+  color: #A8B4C0;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  background: #F4F6F7;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*             place-marker         */
+
+.place-marker{
+    margin-left: 55px;
+    position: relative;
+    right: 46px;
+    bottom: 5px;
+    left: 33px;
+}
+
+.box-trois_quatre{
+
+}
+
+.box-quatre{
+    width: 403px;
+    margin-right: 0;
+}
+
+/* conteneur niveau deux de la section deux */
+
+.container-section-deux{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    height: 49px;
+}
+
 /* ======================= section caroussel ================================ */
 
 ul-top-categorie li{
@@ -45,11 +166,138 @@ ul-top-categorie li{
 
 }
 
-.a{
+a{
     text-decoration: none;
+    color: #FFFFFF;
 }
 /* ====================fin section caroussel ========================== */
 
 
-/* ==============================les commentaires================================== */
+/* ==============================section formulaire================================== */
+.container-contactez-nous{
+    max-width: 753px;
+    height: 508px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 0 28px;
+    margin-bottom: 67px;
+}
 
+.contactez-nous-title_un{
+    width: 229px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.contactez-nous-title_deux{
+    width: 271px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 35px;
+    display: flex;
+    align-items: center; 
+    color: #336699;
+    position: relative;
+    top: 23px;
+    margin: 0 auto;
+}
+
+          /*          formulaire         */
+
+          
+
+.container-formulaire{
+    position: relative;
+    top: 59px;
+}
+
+.form-nom_mail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.field{
+    position: relative;
+    height: 80px;
+    width: 305px;
+    padding: 16px 0 8px 0;
+    margin-bottom: 15px;
+}
+
+.field-trois{
+    position: relative;
+    height: 130px;
+    width: 100%;
+    padding: 16px 0 57px 0;
+}
+
+.field-label{
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #A8B4C0;
+    display: block;
+    transform: translateY(24px);
+}
+
+.field-input{
+
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    line-height: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.field::after{
+    content: '';  
+    height: 2px;
+    width: 303px;
+    position: absolute;
+    bottom: 30px;
+    background-color: #85B940;
+    ;
+}
+
+.field-trois::after{
+    content: '';  
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    background-color: #85B940;
+    ;
+}
+
+placeholder{
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #A8B4C0;
+    display: block;
+    transform: translateY(24px);
+}
+
+.bouton-envoyer{
+    position: relative;
+    width: 154px;
+    height: 46px;
+    background: #85B940;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    top: 79px;
+}
