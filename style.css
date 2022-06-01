@@ -311,3 +311,9 @@ placeholder{
         margin-top: 0!important;
     }
 }
+
+@media screen and (max-width: 448px ){
+    .none-footer{
+        display: none;
+    }
+}
