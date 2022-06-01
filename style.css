@@ -301,3 +301,13 @@ placeholder{
     margin: 0 auto;
     top: 79px;
 }
+/* =======================media queries ========================= */
+
+@media screen and (max-width: 680px ){
+    .none{
+        display: none;
+    }
+    .top-categorie{
+        margin-top: 0!important;
+    }
+}
